@@ -1,0 +1,39 @@
+
+
+body {
+  display: block;
+  max-width: 450px;
+    background: #eff7ff;
+  margin: auto;
+}
+
+h1 {
+  color: #003366;
+  font-family: 'Lucida-Bright', 'Georgia', serif;
+}
+
+p {
+  color: #003366;
+  font-family: 'Candara', 'Tahoma', sans-serif;
+  font-size: 1rem;
+}
+
+
+#jakarta {
+  display: block;
+  margin: auto;
+  height: 450px;
+  width: 450px;
+}
+
+@media screen and (max-width: 628px) {
+
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+    #jakarta {
+      max-width: 100%;
+      margin: auto;
+    }
